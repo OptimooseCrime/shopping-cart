@@ -1,9 +1,9 @@
 import React from 'react'
 
-const CartItems = () => {
+const CartItems = (props) => {
     return (
         <div className="container">
-            <h1>Items</h1>
+            <h1>{props.header}</h1>
         </div>
     )
 }

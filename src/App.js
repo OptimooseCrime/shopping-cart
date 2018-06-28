@@ -8,9 +8,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <CartHeader/>
-        <CartItems/>
-        <CartFooter/>
+        <CartHeader title = 'Shopping Cart'/>
+        <CartItems header = 'Items'/>
+        <CartFooter copyright = '2016'/>
       </div>
     );
   }
